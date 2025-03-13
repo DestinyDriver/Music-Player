@@ -30,6 +30,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 1️⃣ **Clone the repository:**  
    git clone https://github.com/your-username/music-player-site.git
+   
 2️⃣ **Open** index.html in your web browser. 🌍
 
 💡 Feel free to contribute and improve this project! 🚀
