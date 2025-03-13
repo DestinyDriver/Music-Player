@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/img/image.png"
+      sizes="32x32"
+    />
+
+    <!-- cursor -->
+    <style type="text/css">
+      * {
+        cursor: url(https://ani.cursors-4u.net/others/oth-9/oth864.ani),
+          url(https://ani.cursors-4u.net/others/oth-9/oth864.png), auto !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- body -->
+    <!-- main -->
+    <div class="main">
+      <!-- image -->
+      <div class="img">
+        <img
+          src="https://img.youtube.com/vi/CgLF_IRKFGM/maxresdefault.jpg"
+          alt=""
+        />
+      </div>
+      <h1>True Love</h1>
+      <h2>Music #1</h2>
+      <!-- progress -->
+      <div class="progress">
+        <div class="txt">
+          <h7 id="start">00.00</h7>
+          <h7 id="end">3:19</h7>
+        </div>
+        <div class="line">
+          <div class="pline"></div>
+        </div>
+      </div>
+      <!-- buttons -->
+      <div class="button">
+        <i class="fa-solid fa-backward"></i>
+        <i class="fa-solid fa-play main-button"></i>
+        <i class="fa-solid fa-forward"></i>
+      </div>
+    </div>
+
+    <audio src="assets/music/Mus1.mp3" hidden class="audio"></audio>
+
+    <!-- script -->
+    <script
+      src="https://kit.fontawesome.com/7283ad4ce3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
